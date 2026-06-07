@@ -1,0 +1,68 @@
+====================================
+   MULTI-RUN EXPERIMENT RESULTS
+====================================
+
+===============================
+ DATASET: AMAZON
+===============================
+
+--- Aggregated Results ---
+Model               RMSE (mean±std)          
+---------------------------------------------
+MF                  4.4979 ± 0.0174
+NCF                 4.5778 ± 0.1558
+ADV                 4.5388 ± 0.0473
+XAR                 4.4979 ± 0.0174
+
+--- Statistical Test (XAR vs MF) ---
+t-statistic: 0.0012
+p-value: 0.999045
+⚠️ Not statistically significant
+
+--- Other Metrics ---
+Exposure Disparity (mean): 118.2000
+Explainability Coverage (XAR): 0.0282
+
+===============================
+ DATASET: YELP
+===============================
+
+--- Aggregated Results ---
+Model               RMSE (mean±std)          
+---------------------------------------------
+MF                  2.5852 ± 0.0364
+NCF                 4.0911 ± 0.1692
+ADV                 4.0030 ± 0.1210
+XAR                 2.6162 ± 0.0354
+
+--- Statistical Test (XAR vs MF) ---
+t-statistic: 1.8331
+p-value: 0.083378
+⚠️ Not statistically significant
+
+--- Other Metrics ---
+Exposure Disparity (mean): 1286.8000
+Explainability Coverage (XAR): 0.8793
+
+===============================
+ DATASET: DOUBAN
+===============================
+
+--- Aggregated Results ---
+Model               RMSE (mean±std)          
+---------------------------------------------
+MF                  1.1789 ± 0.0298
+NCF                 3.7914 ± 0.1366
+ADV                 3.8775 ± 0.1048
+XAR                 1.1763 ± 0.0289
+
+--- Statistical Test (XAR vs MF) ---
+t-statistic: -0.1919
+p-value: 0.849971
+⚠️ Not statistically significant
+
+--- Other Metrics ---
+Exposure Disparity (mean): 1630.8000
+Explainability Coverage (XAR): 0.0920
+
+✅ ALL EXPERIMENTS COMPLETED

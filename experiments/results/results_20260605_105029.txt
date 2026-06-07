@@ -1,0 +1,77 @@
+====================================
+   X-AR-FMF EXPERIMENT RESULTS
+====================================
+
+===============================
+ DATASET: AMAZON
+===============================
+Users: 176259, Items: 124182
+Train size: 160000, Test size: 40000
+
+--- Training Models ---
+
+--- Evaluation ---
+
+--- Results Summary ---
+Metric                        MF             X-AR-FMF       
+------------------------------------------------------------
+RMSE                          4.5188         4.5187         
+Exposure Disparity            166.0000       
+Explainability Coverage       0.0400         
+
+--- Sample Explanations ---
+User 38182, Item 54874: Preference-driven recommendation
+User 123424, Item 27729: Preference-driven recommendation
+User 169215, Item 29429: Preference-driven recommendation
+User 130630, Item 80029: Preference-driven recommendation
+User 72425, Item 122287: Preference-driven recommendation
+
+===============================
+ DATASET: YELP
+===============================
+Users: 11356, Items: 4441
+Train size: 73916, Test size: 18480
+
+--- Training Models ---
+
+--- Evaluation ---
+
+--- Results Summary ---
+Metric                        MF             X-AR-FMF       
+------------------------------------------------------------
+RMSE                          2.5728         2.5986         
+Exposure Disparity            1316.0000      
+Explainability Coverage       0.8935         
+
+--- Sample Explanations ---
+User 9389, Item 1835: Fairness-driven recommendation
+User 3748, Item 2976: Fairness-driven recommendation
+User 9247, Item 4137: Fairness-driven recommendation
+User 9874, Item 197: Fairness-driven recommendation
+User 3602, Item 3007: Preference-driven recommendation
+
+===============================
+ DATASET: DOUBAN
+===============================
+Users: 2630, Items: 20542
+Train size: 160000, Test size: 40000
+
+--- Training Models ---
+
+--- Evaluation ---
+
+--- Results Summary ---
+Metric                        MF             X-AR-FMF       
+------------------------------------------------------------
+RMSE                          1.1581         1.1553         
+Exposure Disparity            1670.0000      
+Explainability Coverage       0.0875         
+
+--- Sample Explanations ---
+User 1561, Item 17958: Preference-driven recommendation
+User 55, Item 19764: Preference-driven recommendation
+User 682, Item 19139: Preference-driven recommendation
+User 530, Item 855: Preference-driven recommendation
+User 265, Item 5370: Fairness-driven recommendation
+
+✅ All experiments completed successfully!

@@ -1,0 +1,542 @@
+====================================
+   ALPHA-BETA TUNING RESULTS
+====================================
+
+===============================
+ DATASET: AMAZON
+===============================
+
+--- Alpha=0.001, Beta=0.001 ---
+MF  RMSE: 4.4993 ± 0.0130
+XAR RMSE: 4.4993 ± 0.0130
+p-value: 0.994447
+Exposure: 89.40 | Coverage: 0.0089
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.01 ---
+MF  RMSE: 4.4923 ± 0.0158
+XAR RMSE: 4.4924 ± 0.0158
+p-value: 0.994507
+Exposure: 115.80 | Coverage: 0.0168
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.05 ---
+MF  RMSE: 4.4913 ± 0.0248
+XAR RMSE: 4.4913 ± 0.0247
+p-value: 0.995474
+Exposure: 109.40 | Coverage: 0.0307
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.1 ---
+MF  RMSE: 4.4968 ± 0.0201
+XAR RMSE: 4.4968 ± 0.0202
+p-value: 0.993206
+Exposure: 99.20 | Coverage: 0.0336
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.2 ---
+MF  RMSE: 4.5037 ± 0.0140
+XAR RMSE: 4.5038 ± 0.0140
+p-value: 0.986526
+Exposure: 119.20 | Coverage: 0.0412
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.001 ---
+MF  RMSE: 4.4951 ± 0.0175
+XAR RMSE: 4.4952 ± 0.0175
+p-value: 0.992794
+Exposure: 100.20 | Coverage: 0.0102
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.01 ---
+MF  RMSE: 4.4975 ± 0.0152
+XAR RMSE: 4.4975 ± 0.0152
+p-value: 0.997290
+Exposure: 114.40 | Coverage: 0.0169
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.05 ---
+MF  RMSE: 4.5031 ± 0.0139
+XAR RMSE: 4.5031 ± 0.0140
+p-value: 0.992430
+Exposure: 87.60 | Coverage: 0.0282
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.1 ---
+MF  RMSE: 4.5070 ± 0.0182
+XAR RMSE: 4.5070 ± 0.0183
+p-value: 0.999416
+Exposure: 109.60 | Coverage: 0.0360
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.2 ---
+MF  RMSE: 4.4968 ± 0.0233
+XAR RMSE: 4.4969 ± 0.0233
+p-value: 0.986851
+Exposure: 106.20 | Coverage: 0.0445
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.001 ---
+MF  RMSE: 4.5118 ± 0.0142
+XAR RMSE: 4.5117 ± 0.0142
+p-value: 0.991777
+Exposure: 96.40 | Coverage: 0.0100
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.01 ---
+MF  RMSE: 4.5059 ± 0.0186
+XAR RMSE: 4.5059 ± 0.0187
+p-value: 0.999870
+Exposure: 95.60 | Coverage: 0.0188
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.05 ---
+MF  RMSE: 4.4933 ± 0.0200
+XAR RMSE: 4.4933 ± 0.0200
+p-value: 0.993184
+Exposure: 111.20 | Coverage: 0.0290
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.1 ---
+MF  RMSE: 4.5033 ± 0.0194
+XAR RMSE: 4.5034 ± 0.0193
+p-value: 0.993976
+Exposure: 102.80 | Coverage: 0.0341
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.2 ---
+MF  RMSE: 4.4878 ± 0.0184
+XAR RMSE: 4.4877 ± 0.0183
+p-value: 0.996862
+Exposure: 100.80 | Coverage: 0.0454
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.001 ---
+MF  RMSE: 4.5068 ± 0.0132
+XAR RMSE: 4.5068 ± 0.0132
+p-value: 1.000000
+Exposure: 96.80 | Coverage: 0.0084
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.01 ---
+MF  RMSE: 4.4971 ± 0.0153
+XAR RMSE: 4.4970 ± 0.0152
+p-value: 0.991104
+Exposure: 118.60 | Coverage: 0.0191
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.05 ---
+MF  RMSE: 4.5009 ± 0.0214
+XAR RMSE: 4.5008 ± 0.0213
+p-value: 0.991235
+Exposure: 104.80 | Coverage: 0.0282
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.1 ---
+MF  RMSE: 4.4935 ± 0.0207
+XAR RMSE: 4.4935 ± 0.0205
+p-value: 0.995755
+Exposure: 98.20 | Coverage: 0.0350
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.2 ---
+MF  RMSE: 4.4949 ± 0.0132
+XAR RMSE: 4.4948 ± 0.0132
+p-value: 0.989263
+Exposure: 123.80 | Coverage: 0.0428
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.001 ---
+MF  RMSE: 4.5072 ± 0.0121
+XAR RMSE: 4.5072 ± 0.0122
+p-value: 0.997719
+Exposure: 122.80 | Coverage: 0.0102
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.01 ---
+MF  RMSE: 4.4889 ± 0.0153
+XAR RMSE: 4.4888 ± 0.0153
+p-value: 0.994565
+Exposure: 120.00 | Coverage: 0.0212
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.05 ---
+MF  RMSE: 4.5077 ± 0.0152
+XAR RMSE: 4.5077 ± 0.0153
+p-value: 0.997335
+Exposure: 99.80 | Coverage: 0.0290
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.1 ---
+MF  RMSE: 4.5027 ± 0.0171
+XAR RMSE: 4.5027 ± 0.0172
+p-value: 0.999532
+Exposure: 112.20 | Coverage: 0.0357
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.2 ---
+MF  RMSE: 4.4992 ± 0.0130
+XAR RMSE: 4.4991 ± 0.0130
+p-value: 0.980165
+Exposure: 112.20 | Coverage: 0.0419
+⚠️ Not significant
+
+===============================
+ DATASET: YELP
+===============================
+
+--- Alpha=0.001, Beta=0.001 ---
+MF  RMSE: 2.5920 ± 0.0473
+XAR RMSE: 2.5918 ± 0.0401
+p-value: 0.990786
+Exposure: 1283.80 | Coverage: 0.1841
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.01 ---
+MF  RMSE: 2.5816 ± 0.0340
+XAR RMSE: 2.5934 ± 0.0398
+p-value: 0.506559
+Exposure: 1287.40 | Coverage: 0.7225
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.05 ---
+MF  RMSE: 2.6014 ± 0.0386
+XAR RMSE: 2.6425 ± 0.0284
+p-value: 0.019198
+Exposure: 1282.40 | Coverage: 0.8852
+✅ Significant difference
+
+--- Alpha=0.001, Beta=0.1 ---
+MF  RMSE: 2.5993 ± 0.0507
+XAR RMSE: 2.6469 ± 0.0388
+p-value: 0.038307
+Exposure: 1274.00 | Coverage: 0.9277
+✅ Significant difference
+
+--- Alpha=0.001, Beta=0.2 ---
+MF  RMSE: 2.5898 ± 0.0345
+XAR RMSE: 2.7286 ± 0.0253
+p-value: 0.000000
+Exposure: 1299.00 | Coverage: 0.9732
+✅ Significant difference
+
+--- Alpha=0.01, Beta=0.001 ---
+MF  RMSE: 2.6050 ± 0.0389
+XAR RMSE: 2.6106 ± 0.0353
+p-value: 0.751186
+Exposure: 1268.80 | Coverage: 0.1876
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.01 ---
+MF  RMSE: 2.6211 ± 0.0409
+XAR RMSE: 2.6230 ± 0.0423
+p-value: 0.926602
+Exposure: 1283.40 | Coverage: 0.7186
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.05 ---
+MF  RMSE: 2.5814 ± 0.0213
+XAR RMSE: 2.6193 ± 0.0222
+p-value: 0.001660
+Exposure: 1288.40 | Coverage: 0.8821
+✅ Significant difference
+
+--- Alpha=0.01, Beta=0.1 ---
+MF  RMSE: 2.6174 ± 0.0293
+XAR RMSE: 2.6364 ± 0.0428
+p-value: 0.286050
+Exposure: 1269.00 | Coverage: 0.9285
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.2 ---
+MF  RMSE: 2.5659 ± 0.0439
+XAR RMSE: 2.7220 ± 0.0423
+p-value: 0.000000
+Exposure: 1286.00 | Coverage: 0.9698
+✅ Significant difference
+
+--- Alpha=0.05, Beta=0.001 ---
+MF  RMSE: 2.5819 ± 0.0450
+XAR RMSE: 2.6031 ± 0.0369
+p-value: 0.289267
+Exposure: 1310.80 | Coverage: 0.1834
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.01 ---
+MF  RMSE: 2.5937 ± 0.0235
+XAR RMSE: 2.6153 ± 0.0347
+p-value: 0.138416
+Exposure: 1298.80 | Coverage: 0.7155
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.05 ---
+MF  RMSE: 2.5947 ± 0.0423
+XAR RMSE: 2.6343 ± 0.0364
+p-value: 0.047415
+Exposure: 1286.80 | Coverage: 0.8800
+✅ Significant difference
+
+--- Alpha=0.05, Beta=0.1 ---
+MF  RMSE: 2.6047 ± 0.0243
+XAR RMSE: 2.6649 ± 0.0398
+p-value: 0.001123
+Exposure: 1282.20 | Coverage: 0.9228
+✅ Significant difference
+
+--- Alpha=0.05, Beta=0.2 ---
+MF  RMSE: 2.5999 ± 0.0302
+XAR RMSE: 2.7573 ± 0.0308
+p-value: 0.000000
+Exposure: 1277.20 | Coverage: 0.9654
+✅ Significant difference
+
+--- Alpha=0.1, Beta=0.001 ---
+MF  RMSE: 2.6023 ± 0.0497
+XAR RMSE: 2.5872 ± 0.0390
+p-value: 0.482663
+Exposure: 1280.40 | Coverage: 0.1827
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.01 ---
+MF  RMSE: 2.5926 ± 0.0318
+XAR RMSE: 2.6144 ± 0.0428
+p-value: 0.236491
+Exposure: 1272.20 | Coverage: 0.7062
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.05 ---
+MF  RMSE: 2.5674 ± 0.0501
+XAR RMSE: 2.6274 ± 0.0330
+p-value: 0.007661
+Exposure: 1291.00 | Coverage: 0.8806
+✅ Significant difference
+
+--- Alpha=0.1, Beta=0.1 ---
+MF  RMSE: 2.5957 ± 0.0282
+XAR RMSE: 2.6644 ± 0.0424
+p-value: 0.000760
+Exposure: 1277.60 | Coverage: 0.9222
+✅ Significant difference
+
+--- Alpha=0.1, Beta=0.2 ---
+MF  RMSE: 2.5708 ± 0.0177
+XAR RMSE: 2.7388 ± 0.0269
+p-value: 0.000000
+Exposure: 1308.20 | Coverage: 0.9688
+✅ Significant difference
+
+--- Alpha=0.2, Beta=0.001 ---
+MF  RMSE: 2.6169 ± 0.0301
+XAR RMSE: 2.6467 ± 0.0276
+p-value: 0.042237
+Exposure: 1278.80 | Coverage: 0.1962
+✅ Significant difference
+
+--- Alpha=0.2, Beta=0.01 ---
+MF  RMSE: 2.6235 ± 0.0306
+XAR RMSE: 2.6370 ± 0.0325
+p-value: 0.377306
+Exposure: 1269.20 | Coverage: 0.7006
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.05 ---
+MF  RMSE: 2.5959 ± 0.0311
+XAR RMSE: 2.6440 ± 0.0279
+p-value: 0.002874
+Exposure: 1284.00 | Coverage: 0.8762
+✅ Significant difference
+
+--- Alpha=0.2, Beta=0.1 ---
+MF  RMSE: 2.6028 ± 0.0333
+XAR RMSE: 2.6854 ± 0.0402
+p-value: 0.000159
+Exposure: 1279.40 | Coverage: 0.9174
+✅ Significant difference
+
+--- Alpha=0.2, Beta=0.2 ---
+MF  RMSE: 2.5939 ± 0.0385
+XAR RMSE: 2.7641 ± 0.0458
+p-value: 0.000000
+Exposure: 1285.40 | Coverage: 0.9661
+✅ Significant difference
+
+===============================
+ DATASET: DOUBAN
+===============================
+
+--- Alpha=0.001, Beta=0.001 ---
+MF  RMSE: 1.1979 ± 0.0302
+XAR RMSE: 1.1929 ± 0.0309
+p-value: 0.732683
+Exposure: 1626.00 | Coverage: 0.0000
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.01 ---
+MF  RMSE: 1.1953 ± 0.0280
+XAR RMSE: 1.1905 ± 0.0277
+p-value: 0.717647
+Exposure: 1617.60 | Coverage: 0.0005
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.05 ---
+MF  RMSE: 1.1953 ± 0.0102
+XAR RMSE: 1.1878 ± 0.0110
+p-value: 0.153526
+Exposure: 1623.80 | Coverage: 0.0922
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.1 ---
+MF  RMSE: 1.1871 ± 0.0251
+XAR RMSE: 1.1790 ± 0.0250
+p-value: 0.496983
+Exposure: 1633.40 | Coverage: 0.2420
+⚠️ Not significant
+
+--- Alpha=0.001, Beta=0.2 ---
+MF  RMSE: 1.1981 ± 0.0366
+XAR RMSE: 1.1877 ± 0.0358
+p-value: 0.550219
+Exposure: 1617.80 | Coverage: 0.4077
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.001 ---
+MF  RMSE: 1.1954 ± 0.0262
+XAR RMSE: 1.1941 ± 0.0253
+p-value: 0.916993
+Exposure: 1623.60 | Coverage: 0.0000
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.01 ---
+MF  RMSE: 1.1979 ± 0.0282
+XAR RMSE: 1.1942 ± 0.0281
+p-value: 0.781171
+Exposure: 1620.00 | Coverage: 0.0005
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.05 ---
+MF  RMSE: 1.1984 ± 0.0217
+XAR RMSE: 1.1939 ± 0.0226
+p-value: 0.671700
+Exposure: 1617.80 | Coverage: 0.0957
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.1 ---
+MF  RMSE: 1.1969 ± 0.0330
+XAR RMSE: 1.1912 ± 0.0331
+p-value: 0.718671
+Exposure: 1622.60 | Coverage: 0.2399
+⚠️ Not significant
+
+--- Alpha=0.01, Beta=0.2 ---
+MF  RMSE: 1.1895 ± 0.0275
+XAR RMSE: 1.1782 ± 0.0290
+p-value: 0.409166
+Exposure: 1630.00 | Coverage: 0.4085
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.001 ---
+MF  RMSE: 1.2026 ± 0.0341
+XAR RMSE: 1.2006 ± 0.0344
+p-value: 0.907658
+Exposure: 1617.60 | Coverage: 0.0000
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.01 ---
+MF  RMSE: 1.1730 ± 0.0260
+XAR RMSE: 1.1722 ± 0.0249
+p-value: 0.944665
+Exposure: 1628.80 | Coverage: 0.0005
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.05 ---
+MF  RMSE: 1.1980 ± 0.0236
+XAR RMSE: 1.1977 ± 0.0244
+p-value: 0.974228
+Exposure: 1632.40 | Coverage: 0.0948
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.1 ---
+MF  RMSE: 1.1927 ± 0.0234
+XAR RMSE: 1.1889 ± 0.0235
+p-value: 0.732176
+Exposure: 1617.80 | Coverage: 0.2494
+⚠️ Not significant
+
+--- Alpha=0.05, Beta=0.2 ---
+MF  RMSE: 1.2056 ± 0.0283
+XAR RMSE: 1.2002 ± 0.0294
+p-value: 0.698385
+Exposure: 1613.60 | Coverage: 0.4024
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.001 ---
+MF  RMSE: 1.1865 ± 0.0217
+XAR RMSE: 1.1908 ± 0.0214
+p-value: 0.676458
+Exposure: 1632.40 | Coverage: 0.0000
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.01 ---
+MF  RMSE: 1.1898 ± 0.0236
+XAR RMSE: 1.1951 ± 0.0236
+p-value: 0.644086
+Exposure: 1627.80 | Coverage: 0.0004
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.05 ---
+MF  RMSE: 1.1860 ± 0.0181
+XAR RMSE: 1.1869 ± 0.0178
+p-value: 0.915097
+Exposure: 1621.00 | Coverage: 0.0970
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.1 ---
+MF  RMSE: 1.1846 ± 0.0164
+XAR RMSE: 1.1853 ± 0.0161
+p-value: 0.928382
+Exposure: 1630.00 | Coverage: 0.2487
+⚠️ Not significant
+
+--- Alpha=0.1, Beta=0.2 ---
+MF  RMSE: 1.2012 ± 0.0225
+XAR RMSE: 1.1993 ± 0.0236
+p-value: 0.865020
+Exposure: 1623.20 | Coverage: 0.4154
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.001 ---
+MF  RMSE: 1.1942 ± 0.0256
+XAR RMSE: 1.2091 ± 0.0236
+p-value: 0.215986
+Exposure: 1613.40 | Coverage: 0.0000
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.01 ---
+MF  RMSE: 1.1860 ± 0.0300
+XAR RMSE: 1.1988 ± 0.0292
+p-value: 0.369573
+Exposure: 1616.20 | Coverage: 0.0005
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.05 ---
+MF  RMSE: 1.1887 ± 0.0239
+XAR RMSE: 1.2011 ± 0.0250
+p-value: 0.298366
+Exposure: 1620.40 | Coverage: 0.1089
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.1 ---
+MF  RMSE: 1.2027 ± 0.0301
+XAR RMSE: 1.2112 ± 0.0306
+p-value: 0.559288
+Exposure: 1622.00 | Coverage: 0.2725
+⚠️ Not significant
+
+--- Alpha=0.2, Beta=0.2 ---
+MF  RMSE: 1.1847 ± 0.0233
+XAR RMSE: 1.1897 ± 0.0230
+p-value: 0.655387
+Exposure: 1625.80 | Coverage: 0.4318
+⚠️ Not significant
+
+✅ TUNING COMPLETED

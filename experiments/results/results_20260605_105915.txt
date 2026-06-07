@@ -1,0 +1,98 @@
+====================================
+   FULL MODEL COMPARISON RESULTS
+====================================
+
+===============================
+ DATASET: AMAZON
+===============================
+Users: 176259, Items: 124182
+
+--- Evaluation ---
+
+--- Results Summary ---
+Model               RMSE           
+-----------------------------------
+MF                  4.4805         
+NCF                 4.4712         
+ADV                 4.5430         
+XAR                 4.4806         
+
+Exposure Disparity: 66.0000
+Explainability Coverage (XAR): 0.0290
+
+--- Fair Reranking Example ---
+Top-5 reranked items: [36 12 25 45 27]
+
+--- Explanation Baseline Example ---
+Explanation importance (baseline): 0.0017
+
+--- XAR Sample Explanations ---
+User 95634, Item 8110: Preference-driven recommendation
+User 88286, Item 11772: Preference-driven recommendation
+User 30420, Item 87082: Preference-driven recommendation
+User 153153, Item 88287: Preference-driven recommendation
+User 109247, Item 9774: Preference-driven recommendation
+
+===============================
+ DATASET: YELP
+===============================
+Users: 11356, Items: 4441
+
+--- Evaluation ---
+
+--- Results Summary ---
+Model               RMSE           
+-----------------------------------
+MF                  2.5661         
+NCF                 3.8753         
+ADV                 4.2136         
+XAR                 2.5496         
+
+Exposure Disparity: 1288.0000
+Explainability Coverage (XAR): 0.8865
+
+--- Fair Reranking Example ---
+Top-5 reranked items: [33 34 17 39 48]
+
+--- Explanation Baseline Example ---
+Explanation importance (baseline): 0.1802
+
+--- XAR Sample Explanations ---
+User 1552, Item 2966: Fairness-driven recommendation
+User 2756, Item 1968: Fairness-driven recommendation
+User 3536, Item 3589: Fairness-driven recommendation
+User 6032, Item 1975: Fairness-driven recommendation
+User 9607, Item 1963: Fairness-driven recommendation
+
+===============================
+ DATASET: DOUBAN
+===============================
+Users: 2630, Items: 20542
+
+--- Evaluation ---
+
+--- Results Summary ---
+Model               RMSE           
+-----------------------------------
+MF                  1.2191         
+NCF                 3.6391         
+ADV                 3.9601         
+XAR                 1.2150         
+
+Exposure Disparity: 1596.0000
+Explainability Coverage (XAR): 0.1000
+
+--- Fair Reranking Example ---
+Top-5 reranked items: [16  3 46 42  2]
+
+--- Explanation Baseline Example ---
+Explanation importance (baseline): 4.2281
+
+--- XAR Sample Explanations ---
+User 2575, Item 18964: Preference-driven recommendation
+User 378, Item 19850: Preference-driven recommendation
+User 2595, Item 19951: Fairness-driven recommendation
+User 716, Item 19239: Preference-driven recommendation
+User 923, Item 16620: Preference-driven recommendation
+
+✅ EXPERIMENTS COMPLETED
